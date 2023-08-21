@@ -16,7 +16,7 @@ export default function Home() {
       <p>Add to Cart</p>
     </button>
     </nav>
-    <div className='border-b-2 border-black mt-10 grid grid-cols-3 w-[85%] mx-auto pt-10 pb-16 mb-10 relative'>
+    <div className='border-b-[0.01px] border-black mt-10 grid grid-cols-3 w-[85%] mx-auto pt-10 pb-16 mb-10 relative'>
       <div>
         <h1 className='font-black text-6xl max-w-[75%] mx-auto font-ubuntu'>
           Elegance is good taste, plus a dash of daring.</h1>
