@@ -21,8 +21,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={cn(inter.className,ubuntu.variable)}>{children}</body>
+    <html lang="en" >
+      <body className={cn('bg-[#e9e9e9]',inter.className,ubuntu.variable)}>{children}</body>
     </html>
   )
 }
