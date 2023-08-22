@@ -31,7 +31,7 @@ export default function Home() {
       <div>
       <Image width={400} height={400} className='border-black border-l-2 border-r-2 border-b-2' src="/heroimg2.png" alt="" />
       </div>
-      <div className='flex gap-10 bg-[#e9e9e9] absolute bottom-0 translate-y-1/2 left-[50%] -translate-x-1/2 px-10'>
+      <div className='flex gap-10 bg-[#f8f8f8] absolute bottom-0 translate-y-1/2 left-[50%] -translate-x-1/2 px-10'>
         <li>Facebook</li>
         <li>Instagram</li>
         <li>X</li>

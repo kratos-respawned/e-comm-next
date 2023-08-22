@@ -22,7 +22,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" >
-      <body className={cn('bg-[#e9e9e9]',inter.className,ubuntu.variable)}>{children}</body>
+      <body className={cn('bg-[#f8f8f8]',inter.className,ubuntu.variable)}>{children}</body>
     </html>
   )
 }
