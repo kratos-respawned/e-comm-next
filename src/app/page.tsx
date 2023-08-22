@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import {ChevronDown, ShoppingBag} from "lucide-react"
+import New from './New';
 
 export default function Home() {
   return (
@@ -36,6 +37,7 @@ export default function Home() {
         <li>X</li>
       </div>
     </div>
+    <New/>
     </main>
   )
 }
