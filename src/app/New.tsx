@@ -28,7 +28,7 @@ function New() {
         </div>
       </div>
       <div className='w-[80%] mx-auto bg-[#efefef] relative group '>
-        <Image width={500} height={400} alt='Cole Sprouse' className='object-cover mx-auto opacity-100 transition-opacity group-hover:opacity-80 ease-in-out ' src="/cole.png"/>
+        <Image width={600} height={600} alt='Cole Sprouse' className='object-cover mx-auto opacity-100 transition-opacity group-hover:opacity-80 ease-in-out ' src="/cole.png"/>
         <button className="bottom-1/2 absolute translate-y-1/2 left-1/2 -translate-x-1/2 p-5 opacity-0 transition-opacity pointer-events-none  group-hover:pointer-events-auto group-hover:opacity-100 bg-gray-200  rounded-full ">
         <ShoppingBag className=''/>
         </button>
