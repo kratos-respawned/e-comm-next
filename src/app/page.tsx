@@ -1,9 +1,7 @@
 import Image from "next/image";
-import { ChevronDown, ShoppingBag } from "lucide-react";
-import New from "../components/New";
-import Collection from "../components/Collection";
-import NavBar from "@/components/nav-bar";
+import Card from "@/components/card";
 import Link from "next/link";
+import Section from "@/components/section";
 
 export default function Home() {
   return (
@@ -19,7 +17,7 @@ export default function Home() {
           />
         </div>
         <section className=" relative text-center  text-7xl font-black text-gray-700 my-16 tracking-wide">
-          <Link href={"/"}>Category</Link>  
+          <Link href={"/"}>Categories.</Link>  
         </section>
 
         <div className="grid grid-cols-4 gap-10 mb-10">
@@ -54,6 +52,8 @@ export default function Home() {
           />
         </div>
       </main>
+      <Section/>
+      <Card/>
     </>
   );
 }
