@@ -8,56 +8,49 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
-      <main className="grid place-items-center">
-        <div className="grid place-items-center pt-7 ">
+      <main className="grid place-items-center mt-12">
+        <div className="grid place-items-center   ">
           <Image
             src={"/hero.webp"}
-            width={1920}
-            height={1080}
+            width={3200}
+            height={3000}
             alt="hero"
-            className=""
+            className=" object-cover w-full h-full shadow-2xl rounded-sm"
           />
         </div>
-        <section className=" relative text-center  text-7xl font-black text-gray-700 py-16  tracking-widest">
-          <Link href={"/"}>Grab the latest collection.</Link>
-          <Image
-            src={"/group.svg"}
-            width={100}
-            height={100}
-            alt="markerstroke"
-            className="absolute top-2 -right-20 -z-10 object-contain  "
-          />
-          
+        <section className=" relative text-center  text-7xl font-black text-gray-700 my-16 tracking-wide">
+          <Link href={"/"}>Category</Link>  
         </section>
-        <div className="grid grid-cols-4 gap-10 ">
-          <Image
-            src={"/model1.webp"}
-            width={500}
-            height={500}
-            alt="model1"
-            className="group-hover:rounded-full duration-500"
-          />
 
+        <div className="grid grid-cols-4 gap-10 mb-10">
           <Image
             src={"/model2.webp"}
             width={500}
             height={500}
             alt="model2"
-            className=""
+            className="rounded-lg hover:shadow-2xl hover:scale-105 duration-500"
           />
+          <Image
+            src={"/model1.webp"}
+            width={500}
+            height={500}
+            alt="model1"
+            className="rounded-lg hover:shadow-2xl hover:scale-105 duration-500"
+          />
+
+            <Image
+              src={"/menssweat.webp"}
+              width={500}
+              height={500}
+              alt="model4"
+              className="rounded-lg hover:shadow-2xl hover:scale-105 duration-500"
+            />
           <Image
             src={"/model3.webp"}
             width={500}
             height={500}
             alt="model3"
-            className=""
-          />
-          <Image
-            src={"/model4.webp"}
-            width={500}
-            height={500}
-            alt="model4"
-            className=""
+            className="rounded-lg hover:shadow-2xl hover:scale-105 duration-500"
           />
         </div>
       </main>

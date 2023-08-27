@@ -24,7 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en">
     
-      <body className={cn("bg-[#f8f8f8] px-20", inter.className, ubuntu.variable)}>
+      <body className={cn("bg-[#f8f8f8] container ", inter.className, ubuntu.variable)}>
       <NavBar />
         {children}
       </body>
