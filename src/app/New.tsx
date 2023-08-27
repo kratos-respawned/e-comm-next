@@ -19,7 +19,7 @@ function New() {
             </ul>
         </div>
     </div>
-    <div className="grid grid-cols-3  w-[80%] mx-auto mt-20 mb-10">
+    <div className="grid grid-cols-3  w-[70%] mx-auto mt-20 mb-10">
       <div className='border-2 border-black w-[80%] bg-[#e6e6e6]'>
         <Image width={210} height={150} alt='Black Floral Shirt' className=' mx-auto mix-blend-darken grayscale mt-10' src="/floral.png"/>
         <div className='flex justify-between mx-10 mb-6 mt-10'>
@@ -28,7 +28,7 @@ function New() {
         </div>
       </div>
       <div className='w-[80%] mx-auto bg-[#efefef] relative group '>
-        <Image width={600} height={600} alt='Cole Sprouse' className='object-cover mx-auto opacity-100 transition-opacity group-hover:opacity-80 ease-in-out ' src="/cole.png"/>
+        <Image alt='Cole Sprouse' objectFit='cover' layout='fill' className='object-cover mx-auto opacity-100 transition-opacity group-hover:opacity-80 ease-in-out ' src="/cole.png"/>
         <button className="bottom-1/2 absolute translate-y-1/2 left-1/2 -translate-x-1/2 p-5 opacity-0 transition-opacity pointer-events-none  group-hover:pointer-events-auto group-hover:opacity-100 bg-gray-200  rounded-full ">
         <ShoppingBag className=''/>
         </button>
