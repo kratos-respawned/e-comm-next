@@ -3,7 +3,7 @@ import Card from "@/components/card";
 import Link from "next/link";
 import Section from "@/components/section";
 
-export default function Home() {
+export default function Home() {  
   return (
     <>
       <main className="grid place-items-center mt-12">
@@ -17,7 +17,7 @@ export default function Home() {
           />
         </div>
         <section className=" relative text-center  text-7xl font-black text-gray-700 my-16 tracking-wide">
-          <Link href={"/"}>Categories.</Link>  
+          <Link href={"/"}>Categories.</Link>
         </section>
 
         <div className="grid grid-cols-4 gap-10 mb-10">
@@ -36,13 +36,13 @@ export default function Home() {
             className="rounded-lg hover:shadow-2xl hover:scale-105 duration-500"
           />
 
-            <Image
-              src={"/menssweat.webp"}
-              width={500}
-              height={500}
-              alt="model4"
-              className="rounded-lg hover:shadow-2xl hover:scale-105 duration-500"
-            />
+          <Image
+            src={"/menssweat.webp"}
+            width={500}
+            height={500}
+            alt="model4"
+            className="rounded-lg hover:shadow-2xl hover:scale-105 duration-500"
+          />
           <Image
             src={"/model3.webp"}
             width={500}
@@ -52,8 +52,69 @@ export default function Home() {
           />
         </div>
       </main>
-      <Section/>
-      <Card/>
+      <Section />
+      <div className="grid grid-cols-4 space-y-5">
+        <Card
+          productName="lore ipsum"
+          productCollection="lorem ipsum lorem"
+          productPrice="7800"
+          productDiscount="33%"
+        />
+        <Card
+          productName="lore ipsum"
+          productCollection="lorem ipsum lorem"
+          productPrice="7800"
+          productDiscount="33%"
+        />
+        <Card
+          productName="lore ipsum"
+          productCollection="lorem ipsum lorem"
+          productPrice="7800"
+          productDiscount="33%"
+        />
+        <Card
+          productName="lore ipsum"
+          productCollection="lorem ipsum lorem"
+          productPrice="7800"
+          productDiscount="33%"
+        />
+        <Card
+          productName="lore ipsum"
+          productCollection="lorem ipsum lorem"
+          productPrice="7800"
+          productDiscount="33%"
+        />
+        <Card
+          productName="lore ipsum"
+          productCollection="lorem ipsum lorem"
+          productPrice="7800"
+          productDiscount="33%"
+        />
+        <Card
+          productName="lore ipsum"
+          productCollection="lorem ipsum lorem"
+          productPrice="7800"
+          productDiscount="33%"
+        />
+        <Card
+          productName="lore ipsum"
+          productCollection="lorem ipsum lorem"
+          productPrice="7800"
+          productDiscount="33%"
+        />
+        <Card
+          productName="lore ipsum"
+          productCollection="lorem ipsum lorem"
+          productPrice="7800"
+          productDiscount="33%"
+        />
+        <Card
+          productName="lore ipsum"
+          productCollection="lorem ipsum lorem"
+          productPrice="7800"
+          productDiscount="33%"
+        />
+      </div>
     </>
   );
 }
