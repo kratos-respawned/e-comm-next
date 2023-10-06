@@ -19,7 +19,7 @@ const NavBar = () => {
         </ul>
         <button className="pr-10 flex gap-3">
           <ShoppingBag className="w-6 h-6" />
-          <p>Add to Cart</p>
+          <p>Cart</p>
         </button>
       </nav>
     </div>

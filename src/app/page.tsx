@@ -13,7 +13,7 @@ export default function Home() {
           width={3200}
           height={3000}
           alt="hero"
-          className=" object-cover absolute top-0 left-0 -z-10 "
+          className=" object-cover bg-center absolute top-0 left-0 -z-10 "
         />
         <div className="text-center space-y-4">
           <h2 className="text-7xl font-black font-mono text-white">Summmer loving!</h2>
